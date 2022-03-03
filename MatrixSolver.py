@@ -37,8 +37,13 @@ eqnSolFile = fileName[0:len(fileName) - 3] + "sol"
 print(eqnSolFile)
 
 def writeSolution(x):
+    if spp:
+        type = " SPP "
+    else:
+        type = " NGE "
     f = open(eqnSolFile, "w")
     f.write("solution to the system")
+    f.write(type)
     f.write(str(x))
     f.close()
 

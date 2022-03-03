@@ -1,1 +1,1 @@
-solution to the system[ 2.  1. -0.]
+solution to the system NGE [ 2.  1. -0.]
